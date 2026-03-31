@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(netlify --version)",
+      "Bash(gh --version)",
+      "Bash(cmd.exe /c \"node --version && npm --version\")",
+      "Bash(cmd.exe /c \"node -v\")",
+      "Bash(cmd.exe /c \"npm -v\")",
+      "Bash(cmd.exe /c \"git --version\")",
+      "Bash(powershell -Command \"node -v; npm -v; git --version; gh --version\")",
+      "Bash(powershell -Command \"cd D:\\\\Website; git init; git add .; git commit -m ''Initial commit: SHIRA Global Services website''\")"
+    ]
+  }
+}

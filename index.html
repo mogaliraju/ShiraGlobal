@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHIRA Global Services | Your Gateway to Global Education</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo-link">
+                <img src="logo.png" alt="SHIRA Global Services" class="logo-img"
+                     onerror="this.style.display='none'; document.getElementById('logo-fallback').style.display='flex'">
+                <div class="logo-fallback" id="logo-fallback">
+                    <span class="logo-monogram">SG</span>
+                    <div class="logo-text">
+                        <span class="logo-name">SHIRA Global</span>
+                        <span class="logo-sub">Your Gateway to Global Education</span>
+                    </div>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#destinations" class="nav-link">Destinations</a></li>
+                <li><a href="#process" class="nav-link">Process</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-gold nav-cta">Free Consultation</a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-particles" id="particles"></div>
+        <div class="container hero-content">
+            <p class="hero-eyebrow fade-up">Your Trusted Partner for Global Education & Student Visa Success</p>
+            <h1 class="hero-title fade-up">Your Gateway to<br><span class="gold-gradient">Global Education</span></h1>
+            <p class="hero-subtitle fade-up">We turn your dream of studying abroad into a clear, structured, and achievable journey. Expert guidance. Transparent processes. Personalized support.</p>
+            <div class="hero-flags fade-up">
+                <span class="flag-pill">🇨🇦 Canada</span>
+                <span class="flag-pill">🇬🇧 UK</span>
+                <span class="flag-pill">🇺🇸 USA</span>
+                <span class="flag-pill">🇦🇺 Australia</span>
+                <span class="flag-pill">🇪🇺 Europe</span>
+            </div>
+            <div class="hero-buttons fade-up">
+                <a href="#contact" class="btn btn-gold">Book Free Consultation</a>
+                <a href="#services" class="btn btn-outline">Explore Services</a>
+            </div>
+        </div>
+        <div class="scroll-down" onclick="document.getElementById('stats').scrollIntoView({behavior:'smooth'})">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="stats-bar" id="stats">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <span class="stat-num gold-gradient">500+</span>
+                <span class="stat-label">Students Placed</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-num gold-gradient">5+</span>
+                <span class="stat-label">Countries</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-num gold-gradient">95%</span>
+                <span class="stat-label">Visa Success Rate</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-num gold-gradient">100%</span>
+                <span class="stat-label">Transparent Process</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <p class="eyebrow">Who We Are</p>
+                <h2 class="section-title">About <span class="gold-gradient">SHIRA Global</span></h2>
+                <div class="gold-bar"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>SHIRA Global Services is a professional student visa consulting firm dedicated to guiding students toward international education opportunities. We understand that studying abroad is a life-changing decision, and we are committed to making the process smooth, reliable, and stress-free.</p>
+                    <p>With a strong focus on integrity, transparency, and success, our team ensures that every student receives tailored guidance based on their academic background, career goals, and financial situation.</p>
+                    <a href="#contact" class="btn btn-gold" style="margin-top:1.5rem;">Talk to a Counselor</a>
+                </div>
+                <div class="why-card reveal">
+                    <h3>Why Choose <span class="gold-gradient">Us?</span></h3>
+                    <ul class="check-list">
+                        <li>Personalized counseling for every student</li>
+                        <li>Up-to-date knowledge of visa regulations</li>
+                        <li>High visa success rate</li>
+                        <li>Transparent and ethical processes</li>
+                        <li>End-to-end support from application to arrival</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section section-alt" id="services">
+        <div class="container">
+            <div class="section-header">
+                <p class="eyebrow">What We Offer</p>
+                <h2 class="section-title">Our <span class="gold-gradient">Services</span></h2>
+                <div class="gold-bar"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon-wrap">🎓</div>
+                    <h3>Student Counseling</h3>
+                    <p>We help you choose the right country, course, and university based on your academic profile, career goals, and budget.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon-wrap">🏫</div>
+                    <h3>University Admissions</h3>
+                    <p>We assist in shortlisting universities and handling the entire application process to maximize your chances of acceptance.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon-wrap">📋</div>
+                    <h3>Documentation Support</h3>
+                    <p>Our experts guide you in preparing accurate and complete documentation to meet embassy requirements.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon-wrap">🛂</div>
+                    <h3>Visa Assistance</h3>
+                    <p>Step-by-step visa guidance, including SOP preparation, financial documentation, and interview preparation.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon-wrap">✈️</div>
+                    <h3>Pre-Departure Guidance</h3>
+                    <p>We prepare you for life abroad with guidance on accommodation, travel, and cultural adaptation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations -->
+    <section class="section" id="destinations">
+        <div class="container">
+            <div class="section-header">
+                <p class="eyebrow">Where We Send You</p>
+                <h2 class="section-title">Study <span class="gold-gradient">Destinations</span></h2>
+                <div class="gold-bar"></div>
+                <p class="section-desc">We specialize in student visas for top international destinations. Each offers unique opportunities — we help you find the best fit.</p>
+            </div>
+            <div class="destinations-grid">
+                <div class="dest-card reveal">
+                    <div class="dest-flag">🇨🇦</div>
+                    <h3>Canada</h3>
+                    <p>World-class universities, post-graduation work permits, and clear pathways to permanent residency.</p>
+                </div>
+                <div class="dest-card reveal">
+                    <div class="dest-flag">🇬🇧</div>
+                    <h3>United Kingdom</h3>
+                    <p>Prestigious institutions, rich academic culture, and a Graduate Route visa for post-study work.</p>
+                </div>
+                <div class="dest-card reveal">
+                    <div class="dest-flag">🇺🇸</div>
+                    <h3>United States</h3>
+                    <p>Home to the world's top-ranked universities with diverse programs across every discipline.</p>
+                </div>
+                <div class="dest-card reveal">
+                    <div class="dest-flag">🇦🇺</div>
+                    <h3>Australia</h3>
+                    <p>High quality of life, outstanding education system, and strong post-study work opportunities.</p>
+                </div>
+                <div class="dest-card reveal">
+                    <div class="dest-flag">🇪🇺</div>
+                    <h3>Europe</h3>
+                    <p>Affordable tuition, multilingual exposure, and access to leading European universities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process -->
+    <section class="section section-alt" id="process">
+        <div class="container">
+            <div class="section-header">
+                <p class="eyebrow">How It Works</p>
+                <h2 class="section-title">Our <span class="gold-gradient">Process</span></h2>
+                <div class="gold-bar"></div>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step reveal">
+                    <div class="step-num">01</div>
+                    <div class="step-body">
+                        <h3>Free Consultation</h3>
+                        <p>Understand your goals and assess your eligibility</p>
+                    </div>
+                </div>
+                <div class="process-step reveal">
+                    <div class="step-num">02</div>
+                    <div class="step-body">
+                        <h3>Course & University Selection</h3>
+                        <p>Tailored recommendations based on your academic profile</p>
+                    </div>
+                </div>
+                <div class="process-step reveal">
+                    <div class="step-num">03</div>
+                    <div class="step-body">
+                        <h3>Application Submission</h3>
+                        <p>Accurate and timely processing of your application</p>
+                    </div>
+                </div>
+                <div class="process-step reveal">
+                    <div class="step-num">04</div>
+                    <div class="step-body">
+                        <h3>Offer Letter Guidance</h3>
+                        <p>Full support through the acceptance stage</p>
+                    </div>
+                </div>
+                <div class="process-step reveal">
+                    <div class="step-num">05</div>
+                    <div class="step-body">
+                        <h3>Visa Documentation</h3>
+                        <p>Complete and compliant file preparation</p>
+                    </div>
+                </div>
+                <div class="process-step reveal">
+                    <div class="step-num">06</div>
+                    <div class="step-body">
+                        <h3>Visa Filing & Interview Prep</h3>
+                        <p>Build confidence and clarity for your visa interview</p>
+                    </div>
+                </div>
+                <div class="process-step reveal">
+                    <div class="step-num">07</div>
+                    <div class="step-body">
+                        <h3>Pre-Departure Support</h3>
+                        <p>Smooth transition to your life abroad</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Commitment -->
+    <section class="section commitment-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="eyebrow">Our Promise to You</p>
+                <h2 class="section-title">Success <span class="gold-gradient">Commitment</span></h2>
+                <div class="gold-bar"></div>
+                <p class="section-desc">We measure our success by your success.</p>
+            </div>
+            <div class="commitment-grid">
+                <div class="commitment-card reveal">
+                    <div class="commit-icon">💬</div>
+                    <h3>Clear Communication</h3>
+                    <p>Transparent updates at every stage of your journey</p>
+                </div>
+                <div class="commitment-card reveal">
+                    <div class="commit-icon">🚫</div>
+                    <h3>No Hidden Costs</h3>
+                    <p>Complete pricing transparency from day one</p>
+                </div>
+                <div class="commitment-card reveal">
+                    <div class="commit-icon">✅</div>
+                    <h3>Honest Assessment</h3>
+                    <p>Realistic eligibility evaluation — no false promises</p>
+                </div>
+                <div class="commitment-card reveal">
+                    <div class="commit-icon">🤝</div>
+                    <h3>Continuous Support</h3>
+                    <p>We stay with you until your visa is approved</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <p class="eyebrow">Get In Touch</p>
+                <h2 class="section-title">Book Your <span class="gold-gradient">Free Consultation</span></h2>
+                <div class="gold-bar"></div>
+                <p class="section-desc">Take the first step toward your global future. Our counselors are ready to help.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <h3>Contact <span class="gold-gradient">Details</span></h3>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <strong>Office Address</strong>
+                            <p>[Add Address]</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <div>
+                            <strong>Phone</strong>
+                            <p>[Add Phone Number]</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <div>
+                            <strong>Email</strong>
+                            <p>[Add Email Address]</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">🌐</span>
+                        <div>
+                            <strong>Website</strong>
+                            <p>[Add Website URL]</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form reveal" id="contactForm" onsubmit="handleSubmit(event)">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email Address" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <select name="destination">
+                                <option value="" disabled selected>Preferred Destination</option>
+                                <option>Canada</option>
+                                <option>United Kingdom</option>
+                                <option>United States</option>
+                                <option>Australia</option>
+                                <option>Europe</option>
+                                <option>Not decided yet</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Tell us about your study goals..." rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-gold btn-full">Book Free Consultation &rarr;</button>
+                    <p class="form-note">No commitment required. We'll get back to you within 24 hours.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-band">
+        <div class="container cta-inner">
+            <div class="cta-text">
+                <h2>Ready to Study Abroad?</h2>
+                <p>Let SHIRA Global Services guide you on every step of the way.</p>
+            </div>
+            <a href="#contact" class="btn btn-gold">Book Your Free Consultation Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <img src="logo.png" alt="SHIRA Global" class="footer-logo"
+                     onerror="this.style.display='none'; document.getElementById('footer-text').style.display='block'">
+                <div id="footer-text" class="footer-logo-text" style="display:none">
+                    <span class="gold-gradient" style="font-family:'Playfair Display',serif;font-size:1.4rem;font-weight:700;">SHIRA Global</span>
+                </div>
+                <p class="footer-tagline">Your Gateway to Global Education</p>
+            </div>
+            <nav class="footer-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#destinations">Destinations</a>
+                <a href="#process">Process</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 SHIRA Global Services. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
