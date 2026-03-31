@@ -133,7 +133,7 @@ body {
 }
 
 .logo-link { text-decoration: none; flex-shrink: 0; }
-.logo-img { height: 48px; width: auto; display: block; }
+.logo-img { height: 70px; width: auto; display: block; }
 
 .logo-fallback {
     display: none;
@@ -237,8 +237,64 @@ body {
     position: relative;
     z-index: 2;
     padding: 8rem 2rem 4rem;
-    max-width: 800px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 420px;
+    gap: 4rem;
+    align-items: center;
 }
+
+.hero-left { display: contents; }
+
+.hero-card {
+    background: rgba(201, 160, 80, 0.06);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 2.5rem;
+    backdrop-filter: blur(10px);
+    grid-column: 2;
+    grid-row: 1 / 7;
+    align-self: center;
+    margin-top: 4rem;
+    box-shadow: 0 0 60px rgba(201, 160, 80, 0.08);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 0.8s 1.1s forwards;
+}
+.hero-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    color: var(--white);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.hero-card-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+}
+.hcs-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.9rem 1rem;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+}
+.hcs-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--gold-light), var(--gold));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1;
+    min-width: 60px;
+}
+.hcs-label { color: var(--text-muted); font-size: 0.85rem; line-height: 1.4; }
 
 .hero-eyebrow {
     font-size: 0.8rem;
@@ -754,6 +810,8 @@ body {
     }
     .nav-links.open .nav-link { font-size: 1.4rem; padding: 0.75rem 1.5rem; }
 
+    .hero-content { grid-template-columns: 1fr; }
+    .hero-card { grid-column: 1; grid-row: auto; margin-top: 1rem; }
     .about-grid { grid-template-columns: 1fr; }
     .services-grid { grid-template-columns: 1fr; }
     .destinations-grid { grid-template-columns: repeat(2, 1fr); }
