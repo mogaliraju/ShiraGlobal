@@ -5,13 +5,13 @@
     --gold: #c9a050;
     --gold-light: #e8c870;
     --gold-dark: #8a6820;
-    --bg: #080808;
-    --bg-alt: #0f0f0f;
-    --bg-card: #131313;
-    --bg-card-hover: #1a1a1a;
+    --bg: #020c18;
+    --bg-alt: #041525;
+    --bg-card: #062035;
+    --bg-card-hover: #0a2d4a;
     --border: rgba(201, 160, 80, 0.15);
-    --text: #e0e0e0;
-    --text-muted: #888;
+    --text: #d0dff0;
+    --text-muted: #7a96b0;
     --white: #ffffff;
     --radius: 12px;
     --transition: 0.3s ease;
@@ -115,15 +115,15 @@ body {
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 1000;
-    padding: 1rem 0;
+    padding: 0.75rem 0;
     transition: all var(--transition);
     border-bottom: 1px solid transparent;
 }
 .navbar.scrolled {
-    background: rgba(8, 8, 8, 0.95);
+    background: rgba(2, 12, 24, 0.97);
     backdrop-filter: blur(20px);
     border-bottom-color: var(--border);
-    padding: 0.6rem 0;
+    padding: 0.5rem 0;
 }
 
 .nav-container {
@@ -133,7 +133,7 @@ body {
 }
 
 .logo-link { text-decoration: none; flex-shrink: 0; }
-.logo-img { height: 70px; width: auto; display: block; }
+.logo-img { height: 160px; width: auto; display: block; }
 
 .logo-fallback {
     display: none;
