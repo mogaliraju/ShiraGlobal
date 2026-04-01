@@ -30,9 +30,9 @@ body {
 
 /* ===== UTILITIES ===== */
 .container {
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 3rem;
 }
 
 .gold-gradient {
@@ -133,7 +133,7 @@ body {
 }
 
 .logo-link { text-decoration: none; flex-shrink: 0; }
-.logo-img { height: 160px; width: auto; display: block; }
+.logo-img { height: 90px; width: auto; display: block; }
 
 .logo-fallback {
     display: none;
@@ -236,7 +236,7 @@ body {
 .hero-content {
     position: relative;
     z-index: 2;
-    padding: 12rem 2rem 4rem;
+    padding: 9rem 2rem 4rem;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 420px;
