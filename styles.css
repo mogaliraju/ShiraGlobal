@@ -37,7 +37,7 @@ body::before {
     content: '';
     position: fixed;
     inset: 0;
-    background: url('logo.png') center center / 520px auto no-repeat;
+    background: url('logo.svg') center center / 520px auto no-repeat;
     opacity: 0.04;
     pointer-events: none;
     z-index: 0;
@@ -170,7 +170,7 @@ body > * { position: relative; z-index: 1; }
 }
 
 .logo-link { text-decoration: none; flex-shrink: 0; }
-.logo-img { height: 60px; width: auto; display: block; }
+.logo-img { height: 52px; width: auto; display: block; }
 
 .logo-fallback {
     display: none;
@@ -833,7 +833,7 @@ body > * { position: relative; z-index: 1; }
     padding-bottom: 2rem;
     flex-wrap: wrap;
 }
-.footer-logo { height: 44px; width: auto; filter: brightness(10); }
+.footer-logo { height: 44px; width: auto; }
 .footer-logo-text { display: none; }
 .footer-tagline { color: rgba(255,255,255,0.45); font-size: 0.85rem; margin-top: 0.4rem; }
 .footer-nav {

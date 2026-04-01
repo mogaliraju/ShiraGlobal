@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" fill="none">
+  <!-- Icon mark: globe/ring with dot -->
+  <circle cx="28" cy="28" r="22" stroke="#4d8bff" stroke-width="2"/>
+  <ellipse cx="28" cy="28" rx="11" ry="22" stroke="#4d8bff" stroke-width="1.5"/>
+  <line x1="6" y1="28" x2="50" y2="28" stroke="#4d8bff" stroke-width="1.5"/>
+  <line x1="6" y1="18" x2="50" y2="18" stroke="#4d8bff" stroke-width="1" opacity="0.5"/>
+  <line x1="6" y1="38" x2="50" y2="38" stroke="#4d8bff" stroke-width="1" opacity="0.5"/>
+  <circle cx="28" cy="28" r="3.5" fill="#4d8bff"/>
+
+  <!-- SHIRA text -->
+  <text x="60" y="32" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff" letter-spacing="2">SHIRA</text>
+
+  <!-- Global text -->
+  <text x="62" y="47" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="500" fill="#4d8bff" letter-spacing="4">GLOBAL</text>
+</svg>
